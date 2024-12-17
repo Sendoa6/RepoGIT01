@@ -1,11 +1,12 @@
 package clasesDatos;
 
 public class Empleado {
-	String DNI;
-	String Nombre;
-	String Apellidos;
-	int edad;
-	boolean clubSocial; // Indica si el empleado esta en el club social de la empresa
-	float sueldo;
+	private String DNI;
+	private String Nombre;
+	private String Apellidos;
+	private String Categ;
+	private int edad;
+	private boolean clubSocial; // Indica si el empleado esta en el club social de la empresa
+	private float sueldo;
 
 }
