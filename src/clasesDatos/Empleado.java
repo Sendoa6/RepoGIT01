@@ -31,6 +31,7 @@ public class Empleado {
 		this.clubSocial = clubSocial;
 		this.sueldo = sueldo;
 	}
+	
 	//Constructor vacio
 	public Empleado() {
 		super();
@@ -53,5 +54,49 @@ public class Empleado {
 		this.dni = dni;
 		this.nombre = nombre;
 		this.apellidos = apellidos;
+		
+	//Getters y setters
+	}
+	public String getDni() {
+		return dni;
+	}
+	public void setDni(String dni) {
+		this.dni = dni;
+	}
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getApellidos() {
+		return apellidos;
+	}
+	public void setApellidos(String apellidos) {
+		this.apellidos = apellidos;
+	}
+	public String getCateg() {
+		return categ;
+	}
+	public void setCateg(String categ) {
+		this.categ = categ;
+	}
+	public int getEdad() {
+		return edad;
+	}
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+	public boolean isClubSocial() {
+		return clubSocial;
+	}
+	public void setClubSocial(boolean clubSocial) {
+		this.clubSocial = clubSocial;
+	}
+	public float getSueldo() {
+		return sueldo;
+	}
+	public void setSueldo(float sueldo) {
+		this.sueldo = sueldo;
 	}
 }
