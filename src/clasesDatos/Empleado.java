@@ -11,7 +11,7 @@ public class Empleado {
 	
 	
 	/**
-	 * @param dNI
+	 * @param dni
 	 * @param nombre
 	 * @param apellidos
 	 * @param categ
@@ -93,10 +93,21 @@ public class Empleado {
 	public void setClubSocial(boolean clubSocial) {
 		this.clubSocial = clubSocial;
 	}
+	public void setClubSocial() {
+		this.clubSocial = (sueldo > 2000);
+	}
 	public float getSueldo() {
 		return sueldo;
 	}
 	public void setSueldo(float sueldo) {
 		this.sueldo = sueldo;
 	}
+
+	// To String
+	@Override
+	public String toString() {
+		return "Empleado [dni=" + dni + ", nombre=" + nombre + ", apellidos=" + apellidos + ", categ=" + categ
+				+ ", edad=" + edad + ", clubSocial=" + clubSocial + ", sueldo=" + sueldo + "]";
+	}
+	
 }
